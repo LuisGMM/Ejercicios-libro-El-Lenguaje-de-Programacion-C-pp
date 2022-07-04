@@ -1,23 +1,13 @@
 # include <iostream>
 
 
-void exchange(int* n1, int* n2){
-
-    int n3 = *n1;
-    *n1 = *n2;
-    *n2 = n3;
-}
-
 int main() {
 
+typedef  unsigned char uc;
+typedef const unsigned char cuc;
+typedef int* pi;
+typedef char** ppc;
+typedef char* pc[];
+typedef int** ppi[];
 
-
-int a = 1;
-int b = 2;
-
-exchange(&a, &b);
-
-std::cout << a << " " << b << std::endl;
 }
-
-
