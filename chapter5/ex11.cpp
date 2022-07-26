@@ -27,3 +27,16 @@ vector<string> readInput() {
 
     }
 
+    return words;
+}
+
+
+
+
+int main() { 
+
+    vector<string> words = readInput();
+
+    for (string word: words) cout << word << endl;
+
+}
