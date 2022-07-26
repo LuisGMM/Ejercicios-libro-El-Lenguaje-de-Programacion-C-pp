@@ -13,3 +13,15 @@ void looper(std::string array[]) {
         std::cout << array[i] << std::endl;
     }
 }
+
+// void looper(std::string array[]) {
+
+//     for (std::string* p = array; p != 0; p++) {
+//         std::cout << *p << std::endl;
+//     }
+// }
+
+int main() {
+
+    looper(months);
+}
