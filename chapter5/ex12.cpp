@@ -41,4 +41,13 @@ int main() {
 
     [&](){};
 
+
+    New* asd = new New();
+
+    int* a = asd->parg3;
+
+    delete asd;
+
+    std::cout << a << "    " <<*a;
+
 }
