@@ -16,6 +16,13 @@ class New {
         int arg2;
         int* parg3 = new int{3};
 
+    New() = default;
+
+    New(const int &arg1_, const int &arg2_) {
+        arg1 = arg1_;
+        arg2 = arg2_;
+    }
+
 int main() {
 
     std::cout << n << '\n';
