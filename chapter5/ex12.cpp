@@ -11,3 +11,11 @@ void a(int *n){
 }
 
 
+int main() {
+
+    std::cout << n << '\n';
+
+    int *pn = &n;
+    a(&n);
+
+    std::cout << n << '\n';
