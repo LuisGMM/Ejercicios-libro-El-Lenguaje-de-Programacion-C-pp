@@ -10,6 +10,11 @@ void a(int *n){
     (*n)++;
 }
 
+class New {
+    public:
+        int arg1;
+        int arg2;
+        int* parg3 = new int{3};
 
 int main() {
 
