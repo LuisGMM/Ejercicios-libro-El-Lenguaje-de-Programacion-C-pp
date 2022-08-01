@@ -23,6 +23,13 @@ class New {
         arg2 = arg2_;
     }
 
+    ~New() {
+        delete parg3;
+    }
+};
+
+
+
 int main() {
 
     std::cout << n << '\n';
